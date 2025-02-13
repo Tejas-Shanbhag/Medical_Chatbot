@@ -12,11 +12,7 @@
 - ✅ Offers general medical guidance (not a replacement for professional advice)
 - ✅ Supports natural language queries for an interactive experience
 - ✅ Uses AI and a medical knowledge base to deliver accurate responses
-  
-  The app can be accessed using the following url:
-  ```
-  https://share.streamlit.io/tejas-shanbhag/streamlit-telecom-churn-app/main/app.py
-  ```
+
   
   ## App Layout
   ![alt text](https://github.com/Tejas-Shanbhag/Medical_Chatbot/blob/main/media/app.png)
