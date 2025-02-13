@@ -5,13 +5,13 @@
   <a href="https://pinecone.io/"><img alt="st" src="https://img.shields.io/badge/PineCone-yellow" /></a>
   <a href="https://openai.com/"><img alt="st" src="https://img.shields.io/badge/Openai-GPT4-green" /></a>
   
-Welcome to Medical Chatbot, an AI-powered assistant designed to help users understand the causes, symptoms, and general information about various diseases.
+  Welcome to Medical Chatbot, an AI-powered assistant designed to help users understand the causes, symptoms, and general information about various diseases.
 
 🤖 What Does This Chatbot Do?
- ✅ Provides information on disease symptoms and causes
- ✅ Offers general medical guidance (not a replacement for professional advice)
- ✅ Supports natural language queries for an interactive experience
- ✅ Uses AI and a medical knowledge base to deliver accurate responses
+- ✅ Provides information on disease symptoms and causes
+- ✅ Offers general medical guidance (not a replacement for professional advice)
+- ✅ Supports natural language queries for an interactive experience
+- ✅ Uses AI and a medical knowledge base to deliver accurate responses
   
   The app can be accessed using the following url:
   ```
@@ -19,6 +19,6 @@ Welcome to Medical Chatbot, an AI-powered assistant designed to help users under
   ```
   
   ## App Layout
-  ![alt text](https://github.com/Tejas-Shanbhag/Medical_Chatbot/tree/main/media/app.png)
+  ![alt text](https://github.com/Tejas-Shanbhag/Medical_Chatbot/blob/main/media/app.png)
   
   
