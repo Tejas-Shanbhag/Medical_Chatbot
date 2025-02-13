@@ -42,7 +42,7 @@ with fig2:
 
     with st.container(height=750):
         with st.chat_message("assistant"):
-            st.markdown("Hi I am AI Chatbot!!!")
+            st.markdown("Hi I am an AI Chatbot!!!")
                 
 
         if "messages" not in st.session_state:
