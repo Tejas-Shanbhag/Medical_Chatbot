@@ -7,7 +7,7 @@
   
   Welcome to Medical Chatbot, an AI-powered assistant designed to help users understand the causes, symptoms, and general information about various diseases.
 
-🤖 What Does This Chatbot Do?
+🤖 What Does This Chatbot Do ?
 - ✅ Provides information on disease symptoms and causes
 - ✅ Offers general medical guidance (not a replacement for professional advice)
 - ✅ Supports natural language queries for an interactive experience
