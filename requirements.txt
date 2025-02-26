@@ -1,6 +1,6 @@
 langchain
 langchain-core
 langchain-community
-langchain-groq
+langchain-groq 
 langchain-pinecone
 langchain-openai

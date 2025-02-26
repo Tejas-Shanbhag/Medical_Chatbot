@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import *
 from dotenv import load_dotenv
-from pinecone import Pinecone
+from pinecone import Pinecone 
 
 
 PINECONE_API_KEY = "pcsk_3cY47J_QTrpdUcPtAvwC9mATtX8Y33PaUEkp6MwDLSrHvbXzsMxLahtSoYviyZtyJdmAFp"
