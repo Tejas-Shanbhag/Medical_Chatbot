@@ -4,21 +4,8 @@ from dotenv import load_dotenv
 from pinecone import Pinecone 
 
 
-PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 st.set_page_config(layout='wide')
-
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #ADD8E6; /* Light blue */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 st.markdown("""
     <style>
@@ -40,7 +27,7 @@ with fig1:
 
 with fig2:
 
-    with st.container(height=750):
+    with st.container(height=500):
         with st.chat_message("assistant"):
             st.markdown("Hi I am an AI Chatbot!!!")
                 
@@ -61,7 +48,7 @@ with fig2:
             docstore = get_docstore(collection_name='medical-chatbot',embedding_name=embeddings,api_key=PINECONE_API_KEY)
             retriever = docstore.as_retriever(search_type='similarity',search_kwargs={"k":5})
 
-            llm = load_gpt_model(openi_api_key=OPENAI_API_KEY)
+            llm = load_groq_model(groq_api_key=GROQ_API_KEY)
             prompt = get_prompt_template()
             question_answer_chain = create_stuff_documents_chain(llm,prompt)
             rag_chain = create_retrieval_chain(retriever,question_answer_chain)
