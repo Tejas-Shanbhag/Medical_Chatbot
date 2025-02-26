@@ -4,9 +4,6 @@ from dotenv import load_dotenv
 from pinecone import Pinecone 
 
 
-PINECONE_API_KEY = "pcsk_3cY47J_QTrpdUcPtAvwC9mATtX8Y33PaUEkp6MwDLSrHvbXzsMxLahtSoYviyZtyJdmAFp"
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-GROQ_API_KEY =  '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'
 
 st.set_page_config(layout='wide')
 
