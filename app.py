@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import *
 from dotenv import load_dotenv
-from pinecone import Pinecone
+from pinecone import Pinecone 
 
 
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")

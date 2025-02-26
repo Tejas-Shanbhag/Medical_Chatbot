@@ -23,7 +23,7 @@ def load_gpt_model(openi_api_key):
     llm = ChatOpenAI(model="gpt-4o-mini",temperature=0.1,max_tokens=500,api_key=openi_api_key)
     return llm
 
-def get_prompt_template():
+def get_prompt_template(): 
     system_prompt = (
                 "You are an assistant for question-answering tasks. "
                 "Use the following pieces of retrieved context to answer the question."
